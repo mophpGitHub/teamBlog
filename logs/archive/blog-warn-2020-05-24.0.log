@@ -1,0 +1,2 @@
+2020-05-24 10:20:00.553 WARN  [http-nio-8090-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /logout
+2020-05-24 12:07:35.418 WARN  [http-nio-8090-exec-7]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]

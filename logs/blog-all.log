@@ -1,0 +1,1305 @@
+2020-06-02 10:55:12.161 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 20900 (started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-06-02 10:55:12.168 DEBUG [main]com.whz.shiro.ShiroApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-06-02 10:55:12.171 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-02 10:55:12.913 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-02 10:55:13.004 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 85ms. Found 4 MongoDB repository interfaces.
+2020-06-02 10:55:13.352 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.458 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$7161f80d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.503 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.514 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b3f66262] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.518 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$9ace06a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.522 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-02 10:55:13.588 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.631 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:13.660 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.104 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-02 10:55:16.105 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.166 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.447 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.453 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.461 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.465 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.467 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.whz.shiro.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.470 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.471 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [com.sun.proxy.$Proxy89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.474 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.whz.shiro.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.476 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.whz.shiro.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.513 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.539 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02 10:55:16.867 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8080 (http)
+2020-06-02 10:55:16.877 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-02 10:55:16.877 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-02 10:55:16.878 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-02 10:55:16.879 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-06-02 10:55:16.879 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-02 10:55:16.880 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-02 10:55:16.892 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-06-02 10:55:16.990 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-02 10:55:16.990 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4776 ms
+2020-06-02 10:55:17.336 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[123.56.21.252:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-06-02 10:55:17.337 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 123.56.21.252:27017 to client view of cluster
+2020-06-02 10:55:17.471 INFO  [cluster-ClusterId{value='5ed5bf95206fa830c13fc5e3', description='null'}-123.56.21.252:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:3}] to 123.56.21.252:27017
+2020-06-02 10:55:17.503 INFO  [cluster-ClusterId{value='5ed5bf95206fa830c13fc5e3', description='null'}-123.56.21.252:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=123.56.21.252:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29120200}
+2020-06-02 10:55:17.505 INFO  [cluster-ClusterId{value='5ed5bf95206fa830c13fc5e3', description='null'}-123.56.21.252:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2020-06-02 10:55:19.584 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-06-02 10:55:19.615 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-02 10:55:19.617 INFO  [main]com.whz.shiro.ShiroApplication.logStarted:61 -Started ShiroApplication in 8.065 seconds (JVM running for 10.279)
+2020-06-02 10:55:34.829 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-02 10:55:34.829 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-06-02 10:55:34.843 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-06-02 10:55:34.943 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/login
+2020-06-02 10:55:34.944 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:55:34.944 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:34.946 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.login
+2020-06-02 10:55:34.946 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=368a08dc9b4d6c28bf54d3e60fc4ce2c)]
+2020-06-02 10:55:35.003 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-06-02 10:55:35.029 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-06-02 10:55:35.082 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-06-02 10:55:35.094 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 151
+2020-06-02 10:55:35.161 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"token":"09A578CED3B8A177553D678AD602F4C7"},"msg":"操作成功！"}
+2020-06-02 10:55:35.198 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:55:35.206 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=368a08dc9b4d6c28bf54d3e60fc4ce2c)](String), 1(Integer), null, POST(String), 151(Long), {"code":20000,"data":{"token":"09A578CED3B8A177553D678AD602F4C7"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:55:35.260 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:55:35.351 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-06-02 10:55:35.351 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:55:35.352 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:35.352 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-06-02 10:55:35.352 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:55:35.353 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-06-02 10:55:35.360 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-06-02 10:55:35.383 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:55:35.384 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 2(Long), {"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:55:35.427 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:55:35.544 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-06-02 10:55:35.545 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:55:35.545 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:35.546 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-06-02 10:55:35.546 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:55:35.577 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2020-06-02 10:55:35.579 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-06-02 10:55:35.601 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 4
+2020-06-02 10:55:35.602 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 58
+2020-06-02 10:55:35.610 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-06-02 10:55:35.642 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:55:35.644 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 58(Long), {"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:55:35.696 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:55:38.127 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /comment/getByPage
+2020-06-02 10:55:38.127 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:55:38.127 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:38.128 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.CommentController.getByPage
+2020-06-02 10:55:38.128 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:55:38.431 INFO  [http-nio-8080-exec-4]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:2, serverValue:4}] to 123.56.21.252:27017
+2020-06-02 10:55:38.631 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 504
+2020-06-02 10:55:38.648 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blog":{"blogCollection":1,"blogComment":4,"blogContent":"<p><strong>小提示：</strong></p>\n<p>&nbsp; &nbsp; JRebel是一款JVM插件，它使得Java代码修改后不用重启系统，立即生效。IDEA上原生是不支持热部署的，一般更新了 Java 文件后要手动重启 Tomcat 服务器，才能生效，比较浪费时间。</p>\n<p>目前对于idea热部署最好的解决方案就是安装JRebel插件。大家都知道这个软件是收费的，但都不想花钱怎么办？下面我给大家推荐一种破解方法。</p>\n<p><strong>步骤1：生成一个GUID：</strong></p>\n<p><a href=\"https://www.guidgen.com/\" target=\"_blank\" rel=\"noopener\">在线生成GUID地址</a></p>\n<p><strong>步骤2: 根据反向代理服务器地址拼接激活地址</strong></p>\n<p><strong>&nbsp;<span style=\"color: #3366ff;\"><a style=\"color: #3366ff;\" href=\"https://jrebel.qekang.com/%7BGUID%7D\">https://jrebel.qekang.com/{GUID}</a></span></strong></p>\n<p><span style=\"color: #000000;\"><strong>步骤3：安装jrebel</strong></span></p>\n<p><span style=\"color: #000000;\">1&gt;在IDEA中一次点击 File-&gt;Settings-&gt;Plugins-&gt;Brows Repositories<br />2&gt;在搜索框中输入JRebel进行搜索<br />3&gt;找到JRebel for intellij<br />4&gt;install<br />5&gt;安装好之后需要restart IDEA</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbNqAIoClAAHjiBYpkmY580.png\" alt=\"\" width=\"600\" height=\"375\" /></span></p>\n<p><span style=\"color: #000000;\"><strong>步骤4: 打开jrebel 激活面板 . 选择Connect to online licensing service .</strong></span></p>\n<p><span style=\"color: #000000;\">将上面生成的代理地址复制到下面的位置，第一行是输出地址，第二行是输入自己的邮箱</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbbyASlVPAAByWKVU4rI030.png\" alt=\"\" width=\"621\" height=\"677\" /></span></p>\n<p><strong><span style=\"color: #000000;\">步骤5：激活后需要配置一下</span></strong></p>\n<p><span style=\"color: #000000;\">1&gt;JRebel设置为offline模式 点一下<strong>work offline</strong></span></p>\n<p><span style=\"color: #000000;\"><strong><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbnaAYzJeAADW-1Q2rgg220.png\" alt=\"\" width=\"600\" height=\"416\" /></strong></span></p>\n<p><span style=\"color: #000000;\">2&gt;设置项目自动编译</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbqCAKklNAAHaB8OZUNQ757.png\" alt=\"\" width=\"600\" height=\"394\" /></span></p>\n<p>最后有个小提示：此方法虽然简单实用，但是它使用的是别人的反向代理，如果别人代理地址下线了，你的激活状态会不可用状态。如果可以，自己搭建一个反向代理服务。</p>","blogGoods":6,"blogId":"1266190318680674304","blogRead":52,"blogTitle":"JRebel破解","blogType":10,"createdTime":"2020-05-29 02:11:11","version":57},"commentBlog":"1266190318680674304","commentContent":"qweqwe","commentFlag":false,"commentGood":1,"commentUser":8,"createdTime":"2020-06-01 19:22:59","id":"1267416346568757248","user":{"nickname":"sdf","sex":1,"userEmail":"sdfsd","userId":8,"username":"lala","version":1}},{"blog":{"blogCollection":2,"blogComment":5,"blogContent":"<p><strong>小提示：</strong></p>\n<p>&nbsp; &nbsp; JRebel是一款JVM插件，它使得Java代码修改后不用重启系统，立即生效。IDEA上原生是不支持热部署的，一般更新了 Java 文件后要手动重启 Tomcat 服务器，才能生效，比较浪费时间。</p>\n<p>目前对于idea热部署最好的解决方案就是安装JRebel插件。大家都知道这个软件是收费的，但都不想花钱怎么办？下面我给大家推荐一种破解方法。</p>\n<p><strong>步骤1：生成一个GUID：</strong></p>\n<p><a href=\"https://www.guidgen.com/\" target=\"_blank\" rel=\"noopener\">在线生成GUID地址</a></p>\n<p><strong>步骤2: 根据反向代理服务器地址拼接激活地址</strong></p>\n<p><strong>&nbsp;<span style=\"color: #3366ff;\"><a style=\"color: #3366ff;\" href=\"https://jrebel.qekang.com/%7BGUID%7D\">https://jrebel.qekang.com/{GUID}</a></span></strong></p>\n<p><span style=\"color: #000000;\"><strong>步骤3：安装jrebel</strong></span></p>\n<p><span style=\"color: #000000;\">1&gt;在IDEA中一次点击 File-&gt;Settings-&gt;Plugins-&gt;Brows Repositories<br />2&gt;在搜索框中输入JRebel进行搜索<br />3&gt;找到JRebel for intellij<br />4&gt;install<br />5&gt;安装好之后需要restart IDEA</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbNqAIoClAAHjiBYpkmY580.png\" alt=\"\" width=\"600\" height=\"375\" /></span></p>\n<p><span style=\"color: #000000;\"><strong>步骤4: 打开jrebel 激活面板 . 选择Connect to online licensing service .</strong></span></p>\n<p><span style=\"color: #000000;\">将上面生成的代理地址复制到下面的位置，第一行是输出地址，第二行是输入自己的邮箱</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbbyASlVPAAByWKVU4rI030.png\" alt=\"\" width=\"621\" height=\"677\" /></span></p>\n<p><strong><span style=\"color: #000000;\">步骤5：激活后需要配置一下</span></strong></p>\n<p><span style=\"color: #000000;\">1&gt;JRebel设置为offline模式 点一下<strong>work offline</strong></span></p>\n<p><span style=\"color: #000000;\"><strong><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbnaAYzJeAADW-1Q2rgg220.png\" alt=\"\" width=\"600\" height=\"416\" /></strong></span></p>\n<p><span style=\"color: #000000;\">2&gt;设置项目自动编译</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbqCAKklNAAHaB8OZUNQ757.png\" alt=\"\" width=\"600\" height=\"394\" /></span></p>\n<p>最后有个小提示：此方法虽然简单实用，但是它使用的是别人的反向代理，如果别人代理地址下线了，你的激活状态会不可用状态。如果可以，自己搭建一个反向代理服务。</p>","blogGoods":6,"blogId":"1266190318680674304","blogRead":57,"blogTitle":"JRebel破解","blogType":10,"createdTime":"2020-05-29 02:11:11","version":64},"commentBlog":"1266190318680674304","commentContent":"rtyrty","commentFlag":false,"commentGood":1,"commentUser":8,"createdTime":"2020-06-01 20:56:23","id":"1267439853226758144","user":{"nickname":"sdf","sex":1,"userEmail":"sdfsd","userId":8,"username":"lala","version":1}}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2020-06-02 10:55:38.674 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:55:38.676 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /comment/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 504(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blog":{"blogCollection":1,"blogComment":4,"blogContent":"<p><strong>小提示：</strong></p>\n<p>&nbsp; &nbsp; JRebel是一款JVM插件，它使得Java代码修改后不用重启系统，立即生效。IDEA上原生是不支持热部署的，一般更新了 Java 文件后要手动重启 Tomcat 服务器，才能生效，比较浪费时间。</p>\n<p>目前对于idea热部署最好的解决方案就是安装JRebel插件。大家都知道这个软件是收费的，但都不想花钱怎么办？下面我给大家推荐一种破解方法。</p>\n<p><strong>步骤1：生成一个GUID：</strong></p>\n<p><a href=\"https://www.guidgen.com/\" target=\"_blank\" rel=\"noopener\">在线生成GUID地址</a></p>\n<p><strong>步骤2: 根据反向代理服务器地址拼接激活地址</strong></p>\n<p><strong>&nbsp;<span style=\"color: #3366ff;\"><a style=\"color: #3366ff;\" href=\"https://jrebel.qekang.com/%7BGUID%7D\">https://jrebel.qekang.com/{GUID}</a></span></strong></p>\n<p><span style=\"color: #000000;\"><strong>步骤3：安装jrebel</strong></span></p>\n<p><span style=\"color: #000000;\">1&gt;在IDEA中一次点击 File-&gt;Settings-&gt;Plugins-&gt;Brows Repositories<br />2&gt;在搜索框中输入JRebel进行搜索<br />3&gt;找到JRebel for intellij<br />4&gt;install<br />5&gt;安装好之后需要restart IDEA</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbNqAIoClAAHjiBYpkmY580.png\" alt=\"\" width=\"600\" height=\"375\" /></span></p>\n<p><span style=\"color: #000000;\"><strong>步骤4: 打开jrebel 激活面板 . 选择Connect to online licensing service .</strong></span></p>\n<p><span style=\"color: #000000;\">将上面生成的代理地址复制到下面的位置，第一行是输出地址，第二行是输入自己的邮箱</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbbyASlVPAAByWKVU4rI030.png\" alt=\"\" width=\"621\" height=\"677\" /></span></p>\n<p><strong><span style=\"color: #000000;\">步骤5：激活后需要配置一下</span></strong></p>\n<p><span style=\"color: #000000;\">1&gt;JRebel设置为offline模式 点一下<strong>work offline</strong></span></p>\n<p><span style=\"color: #000000;\"><strong><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbnaAYzJeAADW-1Q2rgg220.png\" alt=\"\" width=\"600\" height=\"416\" /></strong></span></p>\n<p><span style=\"color: #000000;\">2&gt;设置项目自动编译</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbqCAKklNAAHaB8OZUNQ757.png\" alt=\"\" width=\"600\" height=\"394\" /></span></p>\n<p>最后有个小提示：此方法虽然简单实用，但是它使用的是别人的反向代理，如果别人代理地址下线了，你的激活状态会不可用状态。如果可以，自己搭建一个反向代理服务。</p>","blogGoods":6,"blogId":"1266190318680674304","blogRead":52,"blogTitle":"JRebel破解","blogType":10,"createdTime":"2020-05-29 02:11:11","version":57},"commentBlog":"1266190318680674304","commentContent":"qweqwe","commentFlag":false,"commentGood":1,"commentUser":8,"createdTime":"2020-06-01 19:22:59","id":"1267416346568757248","user":{"nickname":"sdf","sex":1,"userEmail":"sdfsd","userId":8,"username":"lala","version":1}},{"blog":{"blogCollection":2,"blogComment":5,"blogContent":"<p><strong>小提示：</strong></p>\n<p>&nbsp; &nbsp; JRebel是一款JVM插件，它使得Java代码修改后不用重启系统，立即生效。IDEA上原生是不支持热部署的，一般更新了 Java 文件后要手动重启 Tomcat 服务器，才能生效，比较浪费时间。</p>\n<p>目前对于idea热部署最好的解决方案就是安装JRebel插件。大家都知道这个软件是收费的，但都不想花钱怎么办？下面我给大家推荐一种破解方法。</p>\n<p><strong>步骤1：生成一个GUID：</strong></p>\n<p><a href=\"https://www.guidgen.com/\" target=\"_blank\" rel=\"noopener\">在线生成GUID地址</a></p>\n<p><strong>步骤2: 根据反向代理服务器地址拼接激活地址</strong></p>\n<p><strong>&nbsp;<span style=\"color: #3366ff;\"><a style=\"color: #3366ff;\" href=\"https://jrebel.qekang.com/%7BGUID%7D\">https://jrebel.qekang.com/{GUID}</a></span></strong></p>\n<p><span style=\"color: #000000;\"><strong>步骤3：安装jrebel</strong></span></p>\n<p><span style=\"color: #000000;\">1&gt;在IDEA中一次点击 File-&gt;Settings-&gt;Plugins-&gt;Brows Repositories<br />2&gt;在搜索框中输入JRebel进行搜索<br />3&gt;找到JRebel for intellij<br />4&gt;install<br />5&gt;安装好之后需要restart IDEA</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbNqAIoClAAHjiBYpkmY580.png\" alt=\"\" width=\"600\" height=\"375\" /></span></p>\n<p><span style=\"color: #000000;\"><strong>步骤4: 打开jrebel 激活面板 . 选择Connect to online licensing service .</strong></span></p>\n<p><span style=\"color: #000000;\">将上面生成的代理地址复制到下面的位置，第一行是输出地址，第二行是输入自己的邮箱</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbbyASlVPAAByWKVU4rI030.png\" alt=\"\" width=\"621\" height=\"677\" /></span></p>\n<p><strong><span style=\"color: #000000;\">步骤5：激活后需要配置一下</span></strong></p>\n<p><span style=\"color: #000000;\">1&gt;JRebel设置为offline模式 点一下<strong>work offline</strong></span></p>\n<p><span style=\"color: #000000;\"><strong><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbnaAYzJeAADW-1Q2rgg220.png\" alt=\"\" width=\"600\" height=\"416\" /></strong></span></p>\n<p><span style=\"color: #000000;\">2&gt;设置项目自动编译</span></p>\n<p><span style=\"color: #000000;\"><img src=\"http://152.136.134.15/group1/M00/00/00/rBUAA17QbqCAKklNAAHaB8OZUNQ757.png\" alt=\"\" width=\"600\" height=\"394\" /></span></p>\n<p>最后有个小提示：此方法虽然简单实用，但是它使用的是别人的反向代理，如果别人代理地址下线了，你的激活状态会不可用状态。如果可以，自己搭建一个反向代理服务。</p>","blogGoods":6,"blogId":"1266190318680674304","blogRead":57,"blogTitle":"JRebel破解","blogType":10,"createdTime":"2020-05-29 02:11:11","version":64},"commentBlog":"1266190318680674304","commentContent":"rtyrty","commentFlag":false,"commentGood":1,"commentUser":8,"createdTime":"2020-06-01 20:56:23","id":"1267439853226758144","user":{"nickname":"sdf","sex":1,"userEmail":"sdfsd","userId":8,"username":"lala","version":1}}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:55:38.721 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:55:40.024 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/getByPage
+2020-06-02 10:55:40.024 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:55:40.025 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:40.025 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.getByPage
+2020-06-02 10:55:40.026 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:55:40.084 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-02 10:55:40.085 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-02 10:55:40.105 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 0
+2020-06-02 10:55:40.129 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-02 10:55:40.130 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-02 10:55:40.151 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-02 10:55:40.152 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 128
+2020-06-02 10:55:40.152 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2020-06-02 10:55:40.175 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:55:40.176 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 128(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:55:40.217 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:55:52.831 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:55:52.832 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:55:52.833 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:55:52.833 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:55:52.834 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5f6e5ef7]
+2020-06-02 10:56:21.605 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 28774
+2020-06-02 10:56:21.606 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3","msg":"上传成功！"}
+2020-06-02 10:56:21.635 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:56:21.638 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5f6e5ef7](String), 1(Integer), null, POST(String), 28774(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:56:21.681 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:56:26.489 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:56:26.491 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:56:26.491 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:56:26.492 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:56:26.492 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5327d298]
+2020-06-02 10:56:26.575 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 86
+2020-06-02 10:56:26.577 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","msg":"上传成功！"}
+2020-06-02 10:56:26.621 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:56:26.623 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5327d298](String), 1(Integer), null, POST(String), 86(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:56:26.670 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:56:53.610 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/save
+2020-06-02 10:56:53.610 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:56:53.611 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:56:53.611 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.save
+2020-06-02 10:56:53.611 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Music(id=null, name=旧梦一场, artist=胡66, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg, lrc=[00:00:00] 旧梦一场的LRC歌词，下载歌词请复制下面的内容保存为.lrc文件
+[00:00:00] 旧梦一场 - 阿悠悠
+[00:01:00] 作词：一博
+[00:01:00] 作曲：一博&张池
+[00:01:00] 编曲：周琦
+[00:02:00] 录音：张明懂
+[00:02:00] 混音：刘城函
+[00:03:00] 吉他：周琦
+[00:03:00] 和声：胜屿
+[00:04:00] 制作人：胜屿
+[00:11:00] 总有几段旧爱昙花一刹芬芳
+[00:16:00] 换几人划过梦的中央
+[00:21:00] 每次挥手间总留一抹惆怅
+[00:26:00] 拼凑填满半生浮想
+[00:32:00] 不屑谁说情过缘尽有多荒凉
+[00:36:00] 忘乎所以间爱的痴狂
+[00:42:00] 一别两宽细数曾几过往
+[00:46:00] 梦中你还如当初模样
+[00:51:00] 早知惊鸿一场何必情深一往
+[00:56:00] 昨日人去楼空泪微凉
+[01:01:00] 道不尽缘本无常情如风过水淌
+[01:06:00] 红尘难逃几次人瘦花黄
+[01:32:00] 不屑谁说情过缘尽有多荒凉
+[01:37:00] 忘乎所以间爱的痴狂
+[01:42:00] 一别两宽细数曾几过往
+[01:47:00] 梦中你还如当初模样
+[01:52:00] 早知惊鸿一场何必情深一往
+[01:57:00] 昨日人去楼空泪微凉
+[02:02:00] 道不尽缘本无常情如风过水淌
+[02:07:00] 红尘难逃几次人瘦花黄
+[02:12:00] 早知旧梦一场莫叹心如水凉
+[02:17:00] 冬去春回花又满山岗
+[02:22:00] 谁不是阵阵感伤悟出感叹两行
+[02:27:00] 他日总有某人一世情长
+[02:32:00] 他日总有某人一世情长, createdTime=null, enabled=null, deleted=null)]
+2020-06-02 10:56:53.644 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.MusicMapper.save.debug:159 -==>  Preparing: insert into bl_music(name, artist, url, cover, lrc) values ( ?, ?, ?, ?, ? ) 
+2020-06-02 10:56:53.645 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.MusicMapper.save.debug:159 -==> Parameters: 旧梦一场(String), 胡66(String), http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3(String), http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg(String), [00:00:00] 旧梦一场的LRC歌词，下载歌词请复制下面的内容保存为.lrc文件
+[00:00:00] 旧梦一场 - 阿悠悠
+[00:01:00] 作词：一博
+[00:01:00] 作曲：一博&张池
+[00:01:00] 编曲：周琦
+[00:02:00] 录音：张明懂
+[00:02:00] 混音：刘城函
+[00:03:00] 吉他：周琦
+[00:03:00] 和声：胜屿
+[00:04:00] 制作人：胜屿
+[00:11:00] 总有几段旧爱昙花一刹芬芳
+[00:16:00] 换几人划过梦的中央
+[00:21:00] 每次挥手间总留一抹惆怅
+[00:26:00] 拼凑填满半生浮想
+[00:32:00] 不屑谁说情过缘尽有多荒凉
+[00:36:00] 忘乎所以间爱的痴狂
+[00:42:00] 一别两宽细数曾几过往
+[00:46:00] 梦中你还如当初模样
+[00:51:00] 早知惊鸿一场何必情深一往
+[00:56:00] 昨日人去楼空泪微凉
+[01:01:00] 道不尽缘本无常情如风过水淌
+[01:06:00] 红尘难逃几次人瘦花黄
+[01:32:00] 不屑谁说情过缘尽有多荒凉
+[01:37:00] 忘乎所以间爱的痴狂
+[01:42:00] 一别两宽细数曾几过往
+[01:47:00] 梦中你还如当初模样
+[01:52:00] 早知惊鸿一场何必情深一往
+[01:57:00] 昨日人去楼空泪微凉
+[02:02:00] 道不尽缘本无常情如风过水淌
+[02:07:00] 红尘难逃几次人瘦花黄
+[02:12:00] 早知旧梦一场莫叹心如水凉
+[02:17:00] 冬去春回花又满山岗
+[02:22:00] 谁不是阵阵感伤悟出感叹两行
+[02:27:00] 他日总有某人一世情长
+[02:32:00] 他日总有某人一世情长(String)
+2020-06-02 10:56:53.688 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.MusicMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:56:53.688 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 78
+2020-06-02 10:56:53.689 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-06-02 10:56:53.711 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:56:53.712 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/save(String), [Music(id=null, name=旧梦一场, artist=胡66, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg, lrc=[00:00:00] 旧梦一场的LRC歌词，下载歌词请复制下面的内容保存为.lrc文件
+[00:00:00] 旧梦一场 - 阿悠悠
+[00:01:00] 作词：一博
+[00:01:00] 作曲：一博&张池
+[00:01:00] 编曲：周琦
+[00:02:00] 录音：张明懂
+[00:02:00] 混音：刘城函
+[00:03:00] 吉他：周琦
+[00:03:00] 和声：胜屿
+[00:04:00] 制作人：胜屿
+[00:11:00] 总有几段旧爱昙花一刹芬芳
+[00:16:00] 换几人划过梦的中央
+[00:21:00] 每次挥手间总留一抹惆怅
+[00:26:00] 拼凑填满半生浮想
+[00:32:00] 不屑谁说情过缘尽有多荒凉
+[00:36:00] 忘乎所以间爱的痴狂
+[00:42:00] 一别两宽细数曾几过往
+[00:46:00] 梦中你还如当初模样
+[00:51:00] 早知惊鸿一场何必情深一往
+[00:56:00] 昨日人去楼空泪微凉
+[01:01:00] 道不尽缘本无常情如风过水淌
+[01:06:00] 红尘难逃几次人瘦花黄
+[01:32:00] 不屑谁说情过缘尽有多荒凉
+[01:37:00] 忘乎所以间爱的痴狂
+[01:42:00] 一别两宽细数曾几过往
+[01:47:00] 梦中你还如当初模样
+[01:52:00] 早知惊鸿一场何必情深一往
+[01:57:00] 昨日人去楼空泪微凉
+[02:02:00] 道不尽缘本无常情如风过水淌
+[02:07:00] 红尘难逃几次人瘦花黄
+[02:12:00] 早知旧梦一场莫叹心如水凉
+[02:17:00] 冬去春回花又满山岗
+[02:22:00] 谁不是阵阵感伤悟出感叹两行
+[02:27:00] 他日总有某人一世情长
+[02:32:00] 他日总有某人一世情长, createdTime=null, enabled=null, deleted=null)](String), 1(Integer), null, POST(String), 78(Long), {"code":20000,"msg":"添加成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:56:53.754 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:56:53.797 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/getByPage
+2020-06-02 10:56:53.797 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:56:53.797 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:56:53.798 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.getByPage
+2020-06-02 10:56:53.798 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:56:53.827 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-02 10:56:53.828 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-02 10:56:53.851 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 1
+2020-06-02 10:56:53.877 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-02 10:56:53.879 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-02 10:56:53.899 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-02 10:56:53.899 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 102
+2020-06-02 10:56:53.902 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}
+2020-06-02 10:56:53.928 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:56:53.930 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 102(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:56:53.973 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:07.119 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:57:07.120 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:57:07.120 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:57:07.120 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:57:07.121 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@643a3fbc]
+2020-06-02 10:57:07.317 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 198
+2020-06-02 10:57:07.318 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","msg":"上传成功！"}
+2020-06-02 10:57:07.359 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:57:07.360 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@643a3fbc](String), 1(Integer), null, POST(String), 198(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:57:07.401 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:12.926 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:57:12.926 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:57:12.926 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:57:12.927 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:57:12.927 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@659d2c94]
+2020-06-02 10:57:33.015 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 20088
+2020-06-02 10:57:33.016 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3","msg":"上传成功！"}
+2020-06-02 10:57:33.051 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:57:33.054 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@659d2c94](String), 1(Integer), null, POST(String), 20088(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:57:33.096 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:44.289 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/save
+2020-06-02 10:57:44.289 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:57:44.290 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:57:44.290 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.save
+2020-06-02 10:57:44.290 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Music(id=null, name=凤凰花开的路口, artist=胡夏, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg, lrc=[00:00.00]凤凰花开的路口 (Live) – 胡夏/Angelababy/王彦霖/白队合唱团
+[00:01.82]词：楼南蔚
+[00:01.99]曲：陈熙
+[00:02.12]原唱：林志炫
+[00:02.31]音乐总监 制作人：黄怡
+[00:02.68]录制统筹：莫若铭
+[00:02.94]制作助理：Neo Ivy
+[00:03.28]编曲：Terence Teo
+[00:03.68]吉他：Orion J
+[00:04.00]艺人及合唱声乐指导：
+[00:04.33]李菁楠-女高
+[00:04.53]吴恋恋-女低
+[00:04.73]郑铭-男高
+[00:04.90]王伍伟-男低
+[00:05.10]舞蹈总监：连伟孝
+[00:05.35]舞蹈团队：极舞创意团队
+[00:15.20]男声合：
+[00:16.46]Wu
+[00:30.10]男声合/女声合：
+[00:31.82]Wu
+[00:43.56]胡夏：
+[00:46.47]脑海之中有一个凤凰花开的路口
+[00:56.21]有我最珍惜的朋友
+[01:00.42]和声：
+[01:00.89]Hu Hu Hu Hu Hu Hu Hu
+[01:13.87]胡夏：
+[01:14.59]又到凤凰花朵开放的时候
+[01:20.71]想起某个好久不见老朋友
+[01:27.76]记忆跟着感觉慢慢变鲜活
+[01:34.81]染红的山坡道别的路口
+[01:41.93]青春带走了什么留下了什么
+[01:49.06]剩一片感动在心窝
+[01:55.01]和声：那感动在心窝
+[01:58.73]时光的河入海流
+[02:02.67]终于我们分头走
+[02:05.40]和声：我们分头走 Oh
+[02:07.30]没有哪个港口是永远的停留
+[02:12.10]和声：永远停留 Oh
+[02:13.40]脑海之中有一个 凤凰花开的路口
+[02:19.76]和声：花开的路口
+[02:20.96]有我最珍惜的朋友
+[02:24.90]和声： La La La La La La La
+[02:37.29]王彦霖：
+[02:38.63]也许值得纪念的事情不多
+[02:45.41]至少还有这段回忆够深刻
+[02:51.90]Angelababy：
+[02:52.41]是否远方的你有同样感受
+[02:59.48]成长的坎坷分享的片刻
+[03:05.84]王彦霖/Angelababy：
+[03:06.64]当我又再次唱起你写下的歌
+[03:13.70]仿佛又回到那时候
+[03:18.33]和声：又回到那时候
+[03:22.41]胡夏：
+[03:23.44]时光的河入海流
+[03:26.14]和声：时光的河入海流
+[03:27.77]终于我们分头走
+[03:29.24]和声：终于我们分头走
+[03:31.27]没有哪个港口是永远的停留
+[03:35.65]和声：
+[03:36.09]没有哪个港口是永远的停留
+[03:37.80]脑海之中有一个凤凰花开的路口
+[03:44.25]和声：
+[03:44.82]脑海之中有一个凤凰花开的路口
+[03:45.69]有我最珍惜的朋友
+[03:49.63]和声：有我珍惜的朋友
+[03:52.70]几度花开花落
+[03:56.12]有时快乐有时落寞
+[03:59.57]很欣慰生命
+[04:01.32]和声：Ah
+[04:02.12]某段时刻
+[04:03.02]和声：某段时刻
+[04:04.10]曾一起度过
+[04:05.34]和声：LaLa 曾一起度过
+[04:09.55]胡夏：
+[05:48.63]时光的河入海流
+[05:52.01]终于我们分头走
+[05:56.00]没有哪个港口是永远的停留
+[06:02.18]脑海之中有一个凤凰花开的路口
+[06:09.09]和声：
+[06:09.66]脑海之中有一个凤凰花开的路口
+[06:10.12]有我最珍惜的朋友
+[06:14.89]和声：有我珍惜的朋友
+[06:16.49]时光的河入海流
+[06:19.57]和声：时光的河入海流
+[06:20.36]终于我们分头走
+[06:23.22]和声：终于我们分头走
+[06:24.02]没有哪个港口是永远的停留
+[06:29.80]和声：
+[06:30.36]没有哪个港口是永远的停留
+[06:31.07]脑海之中有一个凤凰花开的路口
+[06:37.28]和声：
+[06:37.85]脑海之中有一个凤凰花开的路口
+[06:39.04]有我最珍惜的朋友
+[06:42.92]和声：有我珍惜的朋友
+[06:48.90]给我最珍惜的朋友 wu
+[07:02.94]和声：Wu wu
+, createdTime=null, enabled=null, deleted=null)]
+2020-06-02 10:57:44.313 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.MusicMapper.save.debug:159 -==>  Preparing: insert into bl_music(name, artist, url, cover, lrc) values ( ?, ?, ?, ?, ? ) 
+2020-06-02 10:57:44.313 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.MusicMapper.save.debug:159 -==> Parameters: 凤凰花开的路口(String), 胡夏(String), http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3(String), http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg(String), [00:00.00]凤凰花开的路口 (Live) – 胡夏/Angelababy/王彦霖/白队合唱团
+[00:01.82]词：楼南蔚
+[00:01.99]曲：陈熙
+[00:02.12]原唱：林志炫
+[00:02.31]音乐总监 制作人：黄怡
+[00:02.68]录制统筹：莫若铭
+[00:02.94]制作助理：Neo Ivy
+[00:03.28]编曲：Terence Teo
+[00:03.68]吉他：Orion J
+[00:04.00]艺人及合唱声乐指导：
+[00:04.33]李菁楠-女高
+[00:04.53]吴恋恋-女低
+[00:04.73]郑铭-男高
+[00:04.90]王伍伟-男低
+[00:05.10]舞蹈总监：连伟孝
+[00:05.35]舞蹈团队：极舞创意团队
+[00:15.20]男声合：
+[00:16.46]Wu
+[00:30.10]男声合/女声合：
+[00:31.82]Wu
+[00:43.56]胡夏：
+[00:46.47]脑海之中有一个凤凰花开的路口
+[00:56.21]有我最珍惜的朋友
+[01:00.42]和声：
+[01:00.89]Hu Hu Hu Hu Hu Hu Hu
+[01:13.87]胡夏：
+[01:14.59]又到凤凰花朵开放的时候
+[01:20.71]想起某个好久不见老朋友
+[01:27.76]记忆跟着感觉慢慢变鲜活
+[01:34.81]染红的山坡道别的路口
+[01:41.93]青春带走了什么留下了什么
+[01:49.06]剩一片感动在心窝
+[01:55.01]和声：那感动在心窝
+[01:58.73]时光的河入海流
+[02:02.67]终于我们分头走
+[02:05.40]和声：我们分头走 Oh
+[02:07.30]没有哪个港口是永远的停留
+[02:12.10]和声：永远停留 Oh
+[02:13.40]脑海之中有一个 凤凰花开的路口
+[02:19.76]和声：花开的路口
+[02:20.96]有我最珍惜的朋友
+[02:24.90]和声： La La La La La La La
+[02:37.29]王彦霖：
+[02:38.63]也许值得纪念的事情不多
+[02:45.41]至少还有这段回忆够深刻
+[02:51.90]Angelababy：
+[02:52.41]是否远方的你有同样感受
+[02:59.48]成长的坎坷分享的片刻
+[03:05.84]王彦霖/Angelababy：
+[03:06.64]当我又再次唱起你写下的歌
+[03:13.70]仿佛又回到那时候
+[03:18.33]和声：又回到那时候
+[03:22.41]胡夏：
+[03:23.44]时光的河入海流
+[03:26.14]和声：时光的河入海流
+[03:27.77]终于我们分头走
+[03:29.24]和声：终于我们分头走
+[03:31.27]没有哪个港口是永远的停留
+[03:35.65]和声：
+[03:36.09]没有哪个港口是永远的停留
+[03:37.80]脑海之中有一个凤凰花开的路口
+[03:44.25]和声：
+[03:44.82]脑海之中有一个凤凰花开的路口
+[03:45.69]有我最珍惜的朋友
+[03:49.63]和声：有我珍惜的朋友
+[03:52.70]几度花开花落
+[03:56.12]有时快乐有时落寞
+[03:59.57]很欣慰生命
+[04:01.32]和声：Ah
+[04:02.12]某段时刻
+[04:03.02]和声：某段时刻
+[04:04.10]曾一起度过
+[04:05.34]和声：LaLa 曾一起度过
+[04:09.55]胡夏：
+[05:48.63]时光的河入海流
+[05:52.01]终于我们分头走
+[05:56.00]没有哪个港口是永远的停留
+[06:02.18]脑海之中有一个凤凰花开的路口
+[06:09.09]和声：
+[06:09.66]脑海之中有一个凤凰花开的路口
+[06:10.12]有我最珍惜的朋友
+[06:14.89]和声：有我珍惜的朋友
+[06:16.49]时光的河入海流
+[06:19.57]和声：时光的河入海流
+[06:20.36]终于我们分头走
+[06:23.22]和声：终于我们分头走
+[06:24.02]没有哪个港口是永远的停留
+[06:29.80]和声：
+[06:30.36]没有哪个港口是永远的停留
+[06:31.07]脑海之中有一个凤凰花开的路口
+[06:37.28]和声：
+[06:37.85]脑海之中有一个凤凰花开的路口
+[06:39.04]有我最珍惜的朋友
+[06:42.92]和声：有我珍惜的朋友
+[06:48.90]给我最珍惜的朋友 wu
+[07:02.94]和声：Wu wu
+(String)
+2020-06-02 10:57:44.355 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.MusicMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:44.356 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 67
+2020-06-02 10:57:44.356 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-06-02 10:57:44.380 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:57:44.381 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/save(String), [Music(id=null, name=凤凰花开的路口, artist=胡夏, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg, lrc=[00:00.00]凤凰花开的路口 (Live) – 胡夏/Angelababy/王彦霖/白队合唱团
+[00:01.82]词：楼南蔚
+[00:01.99]曲：陈熙
+[00:02.12]原唱：林志炫
+[00:02.31]音乐总监 制作人：黄怡
+[00:02.68]录制统筹：莫若铭
+[00:02.94]制作助理：Neo Ivy
+[00:03.28]编曲：Terence Teo
+[00:03.68]吉他：Orion J
+[00:04.00]艺人及合唱声乐指导：
+[00:04.33]李菁楠-女高
+[00:04.53]吴恋恋-女低
+[00:04.73]郑铭-男高
+[00:04.90]王伍伟-男低
+[00:05.10]舞蹈总监：连伟孝
+[00:05.35]舞蹈团队：极舞创意团队
+[00:15.20]男声合：
+[00:16.46]Wu
+[00:30.10]男声合/女声合：
+[00:31.82]Wu
+[00:43.56]胡夏：
+[00:46.47]脑海之中有一个凤凰花开的路口
+[00:56.21]有我最珍惜的朋友
+[01:00.42]和声：
+[01:00.89]Hu Hu Hu Hu Hu Hu Hu
+[01:13.87]胡夏：
+[01:14.59]又到凤凰花朵开放的时候
+[01:20.71]想起某个好久不见老朋友
+[01:27.76]记忆跟着感觉慢慢变鲜活
+[01:34.81]染红的山坡道别的路口
+[01:41.93]青春带走了什么留下了什么
+[01:49.06]剩一片感动在心窝
+[01:55.01]和声：那感动在心窝
+[01:58.73]时光的河入海流
+[02:02.67]终于我们分头走
+[02:05.40]和声：我们分头走 Oh
+[02:07.30]没有哪个港口是永远的停留
+[02:12.10]和声：永远停留 Oh
+[02:13.40]脑海之中有一个 凤凰花开的路口
+[02:19.76]和声：花开的路口
+[02:20.96]有我最珍惜的朋友
+[02:24.90]和声： La La La La La La La
+[02:37.29]王彦霖：
+[02:38.63]也许值得纪念的事情不多
+[02:45.41]至少还有这段回忆够深刻
+[02:51.90]Angelababy：
+[02:52.41]是否远方的你有同样感受
+[02:59.48]成长的坎坷分享的片刻
+[03:05.84]王彦霖/Angelababy：
+[03:06.64]当我又再次唱起你写下的歌
+[03:13.70]仿佛又回到那时候
+[03:18.33]和声：又回到那时候
+[03:22.41]胡夏：
+[03:23.44]时光的河入海流
+[03:26.14]和声：时光的河入海流
+[03:27.77]终于我们分头走
+[03:29.24]和声：终于我们分头走
+[03:31.27]没有哪个港口是永远的停留
+[03:35.65]和声：
+[03:36.09]没有哪个港口是永远的停留
+[03:37.80]脑海之中有一个凤凰花开的路口
+[03:44.25]和声：
+[03:44.82]脑海之中有一个凤凰花开的路口
+[03:45.69]有我最珍惜的朋友
+[03:49.63]和声：有我珍惜的朋友
+[03:52.70]几度花开花落
+[03:56.12]有时快乐有时落寞
+[03:59.57]很欣慰生命
+[04:01.32]和声：Ah
+[04:02.12]某段时刻
+[04:03.02]和声：某段时刻
+[04:04.10]曾一起度过
+[04:05.34]和声：LaLa 曾一起度过
+[04:09.55]胡夏：
+[05:48.63]时光的河入海流
+[05:52.01]终于我们分头走
+[05:56.00]没有哪个港口是永远的停留
+[06:02.18]脑海之中有一个凤凰花开的路口
+[06:09.09]和声：
+[06:09.66]脑海之中有一个凤凰花开的路口
+[06:10.12]有我最珍惜的朋友
+[06:14.89]和声：有我珍惜的朋友
+[06:16.49]时光的河入海流
+[06:19.57]和声：时光的河入海流
+[06:20.36]终于我们分头走
+[06:23.22]和声：终于我们分头走
+[06:24.02]没有哪个港口是永远的停留
+[06:29.80]和声：
+[06:30.36]没有哪个港口是永远的停留
+[06:31.07]脑海之中有一个凤凰花开的路口
+[06:37.28]和声：
+[06:37.85]脑海之中有一个凤凰花开的路口
+[06:39.04]有我最珍惜的朋友
+[06:42.92]和声：有我珍惜的朋友
+[06:48.90]给我最珍惜的朋友 wu
+[07:02.94]和声：Wu wu
+, createdTime=null, enabled=null, deleted=null)](String), 1(Integer), null, POST(String), 67(Long), {"code":20000,"msg":"添加成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:57:44.427 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:44.454 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/getByPage
+2020-06-02 10:57:44.454 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:57:44.455 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:57:44.455 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.getByPage
+2020-06-02 10:57:44.456 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[Music(id=12, name=旧梦一场, artist=胡66, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg, lrc=null, createdTime=2020-06-02 02:56:52, enabled=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:57:44.479 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-02 10:57:44.479 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-02 10:57:44.502 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 2
+2020-06-02 10:57:44.527 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-02 10:57:44.528 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-02 10:57:44.553 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-02 10:57:44.554 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 100
+2020-06-02 10:57:44.554 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2020-06-02 10:57:44.579 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:57:44.580 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[Music(id=12, name=旧梦一场, artist=胡66, url=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3, cover=http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg, lrc=null, createdTime=2020-06-02 02:56:52, enabled=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 100(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:57:44.628 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:57:56.035 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:57:56.035 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:57:56.036 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:57:56.036 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:57:56.036 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@602b0e9d]
+2020-06-02 10:58:10.348 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:58:10.349 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:58:10.349 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:10.349 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:58:10.349 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@76d8ad75]
+2020-06-02 10:58:12.474 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:12.476 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@76d8ad75](String), 0(Integer), com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+Caused by: java.net.SocketTimeoutException: connect timed out
+(String), POST(String), 0(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:13.948 DEBUG [http-nio-8080-exec-5]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:13.969 ERROR [http-nio-8080-exec-5]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000] with root cause
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.github.tobato.fastdfs.domain.conn.DefaultConnection.<init>(DefaultConnection.java:54)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:56)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:22)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:60)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:1041)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:342)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:265)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.getConnection(ConnectionManager.java:148)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.executeFdfsCmd(ConnectionManager.java:63)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFileAndMetaData(DefaultFastFileStorageClient.java:223)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:112)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:68)
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:13.979 ERROR [http-nio-8080-exec-5]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:13.980 ERROR [http-nio-8080-exec-5]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2020-06-02 10:58:15.070 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:58:15.070 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:58:15.070 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:15.070 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:58:15.070 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7a5cab52]
+2020-06-02 10:58:17.151 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:17.153 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7a5cab52](String), 0(Integer), com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+Caused by: java.net.SocketTimeoutException: connect timed out
+(String), POST(String), 0(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:18.649 DEBUG [http-nio-8080-exec-6]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:18.653 ERROR [http-nio-8080-exec-6]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000] with root cause
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.github.tobato.fastdfs.domain.conn.DefaultConnection.<init>(DefaultConnection.java:54)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:56)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:22)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:60)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:1041)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:342)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:265)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.getConnection(ConnectionManager.java:148)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.executeFdfsCmd(ConnectionManager.java:63)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFileAndMetaData(DefaultFastFileStorageClient.java:223)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:112)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:68)
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:18.656 ERROR [http-nio-8080-exec-6]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:18.656 ERROR [http-nio-8080-exec-6]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2020-06-02 10:58:24.052 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /upload/uploadImage
+2020-06-02 10:58:24.052 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:58:24.053 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:24.053 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.UploadController.uploadImage
+2020-06-02 10:58:24.053 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2d8b824c]
+2020-06-02 10:58:26.160 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:26.165 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2d8b824c](String), 0(Integer), com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+Caused by: java.net.SocketTimeoutException: connect timed out
+(String), POST(String), 0(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:27.662 DEBUG [http-nio-8080-exec-7]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:27.663 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-06-02 10:58:27.663 ERROR [http-nio-8080-exec-7]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/123.56.21.252:23000] with root cause
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.github.tobato.fastdfs.domain.conn.DefaultConnection.<init>(DefaultConnection.java:54)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:56)
+	at com.github.tobato.fastdfs.domain.conn.PooledConnectionFactory.create(PooledConnectionFactory.java:22)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:60)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:1041)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:342)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:265)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.getConnection(ConnectionManager.java:148)
+	at com.github.tobato.fastdfs.domain.conn.ConnectionManager.executeFdfsCmd(ConnectionManager.java:63)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFileAndMetaData(DefaultFastFileStorageClient.java:223)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:112)
+	at com.github.tobato.fastdfs.service.DefaultFastFileStorageClient.uploadFile(DefaultFastFileStorageClient.java:68)
+	at com.whz.shiro.utils.UploadService.uploadImage(UploadService.java:46)
+	at com.whz.shiro.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.whz.shiro.controller.UploadController$$FastClassBySpringCGLIB$$a2d922a0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.whz.shiro.aspect.RequestAspect.doAround(RequestAspect.java:59)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.whz.shiro.controller.UploadController$$EnhancerBySpringCGLIB$$65f438d7.uploadImage(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:27.664 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:58:27.665 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:27.665 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-06-02 10:58:27.666 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:58:27.666 ERROR [http-nio-8080-exec-7]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 10:58:27.666 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-06-02 10:58:27.667 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-06-02 10:58:27.667 ERROR [http-nio-8080-exec-7]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.whz.shiro.utils.ShiroUtils.getLoginUser(ShiroUtils.java:28)
+	at com.whz.shiro.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2020-06-02 10:58:28.425 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:28.427 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 3(Long), {"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:29.913 DEBUG [http-nio-8080-exec-8]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:30.163 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-06-02 10:58:30.163 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:58:30.164 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:30.164 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-06-02 10:58:30.164 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:58:30.165 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/getByPage
+2020-06-02 10:58:30.165 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:58:30.165 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:30.166 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.getByPage
+2020-06-02 10:58:30.166 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:58:30.897 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-02 10:58:30.898 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-02 10:58:30.900 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2020-06-02 10:58:30.900 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-06-02 10:58:31.649 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 2
+2020-06-02 10:58:31.651 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 4
+2020-06-02 10:58:31.653 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1490
+2020-06-02 10:58:31.655 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-06-02 10:58:32.413 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-02 10:58:32.414 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-02 10:58:32.418 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:32.419 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 1490(Long), {"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:33.166 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-02 10:58:33.168 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3003
+2020-06-02 10:58:33.170 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2020-06-02 10:58:33.678 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-06-02 10:58:33.679 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:58:33.679 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:33.679 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-06-02 10:58:33.680 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:58:33.680 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-06-02 10:58:33.680 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-06-02 10:58:33.926 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:33.928 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 3003(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:33.930 DEBUG [http-nio-8080-exec-9]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:34.419 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:34.419 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 2(Long), {"code":20000,"data":{"header":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VvIyAO6hBAACm32LMhEk296.jpg","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:35.437 DEBUG [http-nio-8080-exec-10]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:35.901 DEBUG [http-nio-8080-exec-1]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:36.094 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-06-02 10:58:36.094 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-06-02 10:58:36.094 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:36.094 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-06-02 10:58:36.095 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-06-02 10:58:36.096 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /music/getByPage
+2020-06-02 10:58:36.096 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-06-02 10:58:36.096 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-06-02 10:58:36.096 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.MusicController.getByPage
+2020-06-02 10:58:36.097 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-06-02 10:58:36.853 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2020-06-02 10:58:36.854 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-06-02 10:58:36.854 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-02 10:58:36.855 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-02 10:58:37.603 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 4
+2020-06-02 10:58:37.604 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 2
+2020-06-02 10:58:37.605 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1511
+2020-06-02 10:58:37.606 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-06-02 10:58:38.350 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-02 10:58:38.351 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-02 10:58:38.353 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:38.354 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 1511(Long), {"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:39.093 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-02 10:58:39.094 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2998
+2020-06-02 10:58:39.094 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2020-06-02 10:58:39.827 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:39.828 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 2998(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"胡66","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9mAC7HyAAAzyLGumeE635.jpg","createdTime":"2020-06-02 02:56:52","enabled":1,"id":12,"name":"旧梦一场","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7Vv9SAQdBLAGrpBh-LdU0361.mp3"},{"artist":"胡夏","cover":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwAKAIUWZAACm32LMhEk512.jpg","createdTime":"2020-06-02 02:57:43","enabled":1,"id":13,"name":"凤凰花开的路口","url":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwBuAMh-rAEsSp4aZn2w193.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:39.843 DEBUG [http-nio-8080-exec-2]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:41.325 DEBUG [http-nio-8080-exec-3]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 10:58:51.965 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 55930
+2020-06-02 10:58:51.967 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwGqAIKk1AND360uyy7M527.mp3","msg":"上传成功！"}
+2020-06-02 10:58:51.996 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-02 10:58:51.997 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@602b0e9d](String), 1(Integer), null, POST(String), 55930(Long), {"code":20000,"data":"http://123.56.21.252/group1/M00/00/00/rBEV0V7VwGqAIKk1AND360uyy7M527.mp3","msg":"上传成功！"}(String), 127.0.0.1(String)
+2020-06-02 10:58:52.032 DEBUG [http-nio-8080-exec-4]com.whz.shiro.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-02 11:04:26.684 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-06-02 11:04:26.687 INFO  [SpringContextShutdownHook]org.mongodb.driver.connection.info:71 -Closed connection [connectionId{localValue:2, serverValue:4}] to 123.56.21.252:27017 because the pool has been closed.
+2020-06-02 11:04:26.693 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

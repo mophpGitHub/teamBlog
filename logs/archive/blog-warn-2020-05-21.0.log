@@ -1,0 +1,2 @@
+2020-05-21 21:16:12.975 WARN  [http-nio-8090-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /vue-admin-template/table/list
+2020-05-21 21:17:53.716 WARN  [http-nio-8090-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /vue-admin-template/table/list

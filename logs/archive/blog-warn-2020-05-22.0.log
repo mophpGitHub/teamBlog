@@ -1,0 +1,2 @@
+2020-05-22 22:02:51.810 WARN  [http-nio-8090-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /upload/uploadImage
+2020-05-22 22:09:01.382 WARN  [http-nio-8090-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /upload/uploadImage

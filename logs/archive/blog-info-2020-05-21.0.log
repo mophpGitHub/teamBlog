@@ -1,0 +1,428 @@
+2020-05-21 21:02:13.849 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 1096 (D:\资料文档\后台\SpringBoot\blog\target\classes started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-05-21 21:02:13.858 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-05-21 21:02:15.195 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$faea1117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.234 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.244 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$3d7e7b6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.247 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$24561fae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.250 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-21 21:02:15.298 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.319 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:15.339 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:16.987 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-21 21:02:16.988 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.042 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.433 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.438 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.445 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.449 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.451 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.whz.shiro.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.454 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.455 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.457 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userServiceImpl' of type [com.whz.shiro.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.459 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.whz.shiro.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.500 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.538 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:02:17.910 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 8090 (http)
+2020-05-21 21:02:17.921 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8090"]
+2020-05-21 21:02:17.922 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-21 21:02:17.922 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-21 21:02:17.924 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-21 21:02:17.924 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-21 21:02:17.924 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-21 21:02:17.947 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-21 21:02:18.069 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-21 21:02:18.069 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4170 ms
+2020-05-21 21:02:19.438 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8090"]
+2020-05-21 21:02:19.458 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 8090 (http) with context path ''
+2020-05-21 21:02:19.461 INFO  [main]com.whz.shiro.ShiroApplication.logStarted:61 -Started ShiroApplication in 6.171 seconds (JVM running for 8.155)
+2020-05-21 21:11:36.433 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 4152 (D:\资料文档\后台\SpringBoot\blog\target\classes started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-05-21 21:11:36.433 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-05-21 21:11:38.697 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$9a936c91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.775 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.795 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$dd27d6e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.802 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$c3ff7b28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.806 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-21 21:11:38.852 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.874 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:38.925 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:41.745 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-21 21:11:41.746 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:41.813 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.145 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.152 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.161 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.165 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.167 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.whz.shiro.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.172 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.173 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.177 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userServiceImpl' of type [com.whz.shiro.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.180 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.whz.shiro.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.219 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.242 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:11:42.667 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 8090 (http)
+2020-05-21 21:11:42.685 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8090"]
+2020-05-21 21:11:42.685 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-21 21:11:42.688 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-21 21:11:42.690 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-21 21:11:42.691 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-21 21:11:42.693 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-21 21:11:42.710 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-21 21:11:43.175 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-21 21:11:43.185 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 6646 ms
+2020-05-21 21:11:46.149 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8090"]
+2020-05-21 21:11:46.192 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 8090 (http) with context path ''
+2020-05-21 21:11:46.192 INFO  [main]com.whz.shiro.ShiroApplication.logStarted:61 -Started ShiroApplication in 10.898 seconds (JVM running for 13.218)
+2020-05-21 21:15:53.802 INFO  [http-nio-8090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:15:53.803 INFO  [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:15:53.832 INFO  [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 29 ms
+2020-05-21 21:15:54.054 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/login
+2020-05-21 21:15:54.058 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-05-21 21:15:54.058 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:15:54.064 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.login
+2020-05-21 21:15:54.065 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-05-21 21:15:54.246 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 192
+2020-05-21 21:15:54.379 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"token":"4764FEFBBD09B7990E22CA5E604BEC6B"},"msg":"操作成功！"}
+2020-05-21 21:15:54.517 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:15:54.517 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:15:54.517 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:15:54.518 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:15:54.518 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:15:54.518 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 21:15:54.525 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 21:17:53.437 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:17:53.438 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:17:53.438 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:17:53.438 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:17:53.440 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:17:53.441 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 4
+2020-05-21 21:17:53.441 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 21:32:26.575 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:32:26.576 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:32:26.576 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:32:26.577 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:32:26.578 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:32:26.579 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 4
+2020-05-21 21:32:26.580 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 21:32:26.813 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:32:26.814 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:32:26.815 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:32:26.815 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:32:26.815 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:32:26.816 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 21:32:26.816 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 21:45:15.094 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:45:15.096 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:45:15.103 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:45:15.104 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:45:15.104 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:45:15.105 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 11
+2020-05-21 21:45:15.105 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 21:51:39.417 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 21:51:39.417 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 21:51:39.417 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 21:51:39.417 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 21:51:39.420 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 21:51:39.420 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 21:51:39.421 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:41:40.558 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/login
+2020-05-21 22:41:40.560 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-05-21 22:41:40.561 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:41:40.563 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.login
+2020-05-21 22:41:40.564 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-05-21 22:41:40.604 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 46
+2020-05-21 22:41:40.605 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"token":"4949BC0CECCBF7FEC9086E2CB8977CE3"},"msg":"操作成功！"}
+2020-05-21 22:41:40.791 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:41:40.792 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:41:40.792 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:41:40.793 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:41:40.794 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:41:40.794 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 22:41:40.795 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:41:45.656 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:41:45.657 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:41:45.657 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:41:45.657 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:41:45.658 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:41:45.659 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 22:41:45.659 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:43:54.147 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:43:54.148 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:43:54.149 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:43:54.150 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:43:54.151 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:43:54.189 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 42
+2020-05-21 22:43:54.201 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:47:19.120 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:47:19.121 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:47:19.121 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:47:19.122 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:47:19.122 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:47:19.140 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 20
+2020-05-21 22:47:19.142 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:47:22.694 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:47:22.695 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:47:22.695 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:47:22.695 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:47:22.696 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:47:22.696 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 22:47:22.697 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:47:22.771 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:47:22.771 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:47:22.771 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:47:22.772 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:47:22.772 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:47:22.784 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 22:47:22.784 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:47:23.698 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:47:23.698 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:47:23.699 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:47:23.699 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:47:23.699 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:47:23.699 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1
+2020-05-21 22:47:23.700 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:47:23.775 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:47:23.775 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:47:23.776 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:47:23.776 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:47:23.776 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:47:23.787 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 22:47:23.788 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:53:10.182 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:53:10.182 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:53:10.183 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:53:10.184 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:53:10.184 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:53:10.197 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 15
+2020-05-21 22:53:10.198 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:53:36.332 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:53:36.333 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:53:36.334 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:53:36.335 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:53:36.336 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:53:36.357 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 25
+2020-05-21 22:53:36.357 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:55:02.754 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:55:02.756 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:02.756 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:02.757 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:55:02.757 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:02.757 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 22:55:02.758 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:55:02.856 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:55:02.857 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:02.857 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:02.858 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:55:02.858 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:02.869 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 22:55:02.869 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:55:19.754 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:55:19.754 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:19.755 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:19.755 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:55:19.755 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:19.755 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1
+2020-05-21 22:55:19.756 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:55:19.839 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:55:19.840 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:19.840 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:19.841 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:55:19.841 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:19.852 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 14
+2020-05-21 22:55:19.853 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:55:22.059 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 22:55:22.059 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:22.060 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:22.060 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 22:55:22.061 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:22.061 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 22:55:22.061 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 22:55:22.120 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:55:22.121 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:55:22.121 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:55:22.122 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:55:22.122 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:55:22.133 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 22:55:22.134 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:56:17.158 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:56:17.159 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:56:17.160 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:56:17.161 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:56:17.162 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:56:17.178 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 20
+2020-05-21 22:56:17.179 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 22:58:05.310 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 22:58:05.311 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 22:58:05.312 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 22:58:05.313 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 22:58:05.314 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 22:58:05.332 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 22
+2020-05-21 22:58:05.333 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 23:01:29.532 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:01:29.534 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:01:29.535 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:01:29.536 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:01:29.537 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:01:29.569 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 37
+2020-05-21 23:01:29.570 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 23:03:25.308 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:03:25.309 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:03:25.310 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:03:25.310 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:03:25.311 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:03:25.325 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 17
+2020-05-21 23:03:25.325 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 23:06:54.258 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:06:54.259 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:06:54.260 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:06:54.261 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:06:54.263 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:06:54.286 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 28
+2020-05-21 23:06:54.286 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"jsp"}],"msg":"操作成功！"}
+2020-05-21 23:06:58.011 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/delete/3
+2020-05-21 23:06:58.012 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : DELETE
+2020-05-21 23:06:58.013 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:06:58.013 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.delete
+2020-05-21 23:06:58.014 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[3]
+2020-05-21 23:06:58.036 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 25
+2020-05-21 23:06:58.036 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"msg":"删除成功！"}
+2020-05-21 23:06:58.380 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:06:58.380 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:06:58.381 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:06:58.382 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:06:58.383 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:06:58.409 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 30
+2020-05-21 23:06:58.410 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"}],"msg":"操作成功！"}
+2020-05-21 23:08:13.062 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:08:13.062 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:08:13.063 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:08:13.064 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:08:13.064 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:08:13.065 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 23:08:13.065 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:08:13.159 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:08:13.160 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:08:13.160 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:08:13.160 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:08:13.160 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:08:13.170 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 11
+2020-05-21 23:08:13.171 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:08:23.696 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:08:23.696 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:08:23.696 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:08:23.696 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:08:23.697 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:08:23.697 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:08:23.697 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:08:23.779 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:08:23.780 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:08:23.780 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:08:23.780 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:08:23.781 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:08:23.792 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 23:08:23.792 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:09:46.459 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:09:46.459 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:09:46.460 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:09:46.460 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:09:46.461 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:09:46.461 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:09:46.461 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:09:46.537 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:09:46.537 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:09:46.538 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:09:46.538 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:09:46.538 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:09:46.548 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 11
+2020-05-21 23:09:46.549 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:11:54.979 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:11:54.980 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:11:54.980 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:11:54.981 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:11:54.982 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:11:55.002 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 23
+2020-05-21 23:11:55.003 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:23:42.832 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:23:42.833 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:23:42.834 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:23:42.834 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:23:42.835 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:23:42.835 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 3
+2020-05-21 23:23:42.836 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:23:42.872 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:23:42.872 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:23:42.873 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:23:42.873 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:23:42.873 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:23:42.873 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1
+2020-05-21 23:23:42.873 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:23:48.447 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:23:48.448 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:23:48.449 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:23:48.450 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:23:48.451 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:23:48.477 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 30
+2020-05-21 23:23:48.478 INFO  [http-nio-8090-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":0,"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:34:01.483 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:01.483 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:01.484 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:01.484 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:01.484 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:01.485 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:34:01.485 INFO  [http-nio-8090-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:34:25.724 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:25.725 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:25.726 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:25.727 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:25.727 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:25.728 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 4
+2020-05-21 23:34:25.728 INFO  [http-nio-8090-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:34:51.834 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:51.835 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:51.835 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:51.835 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:51.836 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:51.836 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:34:51.836 INFO  [http-nio-8090-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:34:53.501 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:53.501 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:53.502 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:53.502 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:53.502 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:53.503 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:34:53.503 INFO  [http-nio-8090-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:34:53.680 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:53.680 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:53.680 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:53.680 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:53.681 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:53.681 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1
+2020-05-21 23:34:53.681 INFO  [http-nio-8090-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:34:55.262 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:34:55.263 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:34:55.263 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:34:55.263 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:34:55.264 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:34:55.264 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:34:55.264 INFO  [http-nio-8090-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:35:15.205 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:35:15.205 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:35:15.206 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:35:15.206 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:35:15.206 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:35:15.207 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-21 23:35:15.207 INFO  [http-nio-8090-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:36:41.250 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-21 23:36:41.250 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:36:41.251 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:36:41.251 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-21 23:36:41.251 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:36:41.251 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1
+2020-05-21 23:36:41.252 INFO  [http-nio-8090-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"name":"染柒","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-21 23:36:41.368 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/listBack
+2020-05-21 23:36:41.368 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-21 23:36:41.369 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-21 23:36:41.369 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.list
+2020-05-21 23:36:41.369 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-21 23:36:41.381 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 13
+2020-05-21 23:36:41.381 INFO  [http-nio-8090-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"mysql"},{"enable":0,"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"c#"}],"msg":"操作成功！"}
+2020-05-21 23:37:41.868 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

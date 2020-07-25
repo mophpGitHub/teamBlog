@@ -1,0 +1,212 @@
+2020-05-30 08:22:56.082 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 10508 (started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-05-30 08:22:56.093 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-30 08:22:58.167 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-30 08:22:58.275 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 100ms. Found 4 MongoDB repository interfaces.
+2020-05-30 08:22:58.595 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.707 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$4a3fcf0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.751 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.761 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8cd43960] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.764 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$73abdda2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.768 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-30 08:22:58.857 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.872 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:22:58.901 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:23:20.214 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-30 08:23:20.242 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-30 08:26:40.434 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 23792 (started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-05-30 08:26:40.443 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-30 08:26:42.005 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-30 08:26:42.217 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 183ms. Found 4 MongoDB repository interfaces.
+2020-05-30 08:26:42.791 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.099 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$5b119f65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.331 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.347 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9da609ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.352 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$847dadfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.358 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-30 08:26:43.451 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.473 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:26:43.519 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:04.992 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-30 08:27:05.018 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-30 08:27:44.816 INFO  [main]com.whz.shiro.ShiroApplication.logStarting:55 -Starting ShiroApplication on DESKTOP-VN7JL54 with PID 11824 (started by 86188 in D:\资料文档\后台\SpringBoot\blog)
+2020-05-30 08:27:44.820 INFO  [main]com.whz.shiro.ShiroApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-30 08:27:45.760 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-30 08:27:45.909 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 142ms. Found 4 MongoDB repository interfaces.
+2020-05-30 08:27:46.401 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.565 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.whz.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$d8252332] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.639 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.657 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1ab98d87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.663 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$19131c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.673 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-30 08:27:46.758 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.776 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:46.802 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.036 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-30 08:27:49.037 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.136 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.883 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.895 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.908 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.918 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.921 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.whz.shiro.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.927 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.931 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [com.sun.proxy.$Proxy92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.935 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.whz.shiro.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:49.939 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.whz.shiro.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:50.024 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:50.063 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-30 08:27:50.761 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8080 (http)
+2020-05-30 08:27:50.788 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 08:27:50.789 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-30 08:27:50.790 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-30 08:27:50.795 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-30 08:27:50.796 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-30 08:27:50.796 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-30 08:27:50.816 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-30 08:27:51.337 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-30 08:27:51.337 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 6442 ms
+2020-05-30 08:27:52.250 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[152.136.134.15:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-30 08:27:52.251 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 152.136.134.15:27017 to client view of cluster
+2020-05-30 08:27:52.513 INFO  [cluster-ClusterId{value='5ed1a8883a0e3636cf811892', description='null'}-152.136.134.15:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:23}] to 152.136.134.15:27017
+2020-05-30 08:27:52.556 INFO  [cluster-ClusterId{value='5ed1a8883a0e3636cf811892', description='null'}-152.136.134.15:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=152.136.134.15:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 6]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38056800}
+2020-05-30 08:27:52.560 INFO  [cluster-ClusterId{value='5ed1a8883a0e3636cf811892', description='null'}-152.136.134.15:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2020-05-30 08:27:57.612 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 08:27:57.671 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 08:27:57.677 INFO  [main]com.whz.shiro.ShiroApplication.logStarted:61 -Started ShiroApplication in 13.677 seconds (JVM running for 17.639)
+2020-05-30 08:27:58.082 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 08:27:58.083 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-30 08:27:58.134 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 51 ms
+2020-05-30 08:27:58.564 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/login
+2020-05-30 08:27:58.565 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-05-30 08:27:58.566 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:27:58.574 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.login
+2020-05-30 08:27:58.576 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=368a08dc9b4d6c28bf54d3e60fc4ce2c)]
+2020-05-30 08:27:59.099 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 536
+2020-05-30 08:27:59.615 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"token":"67461F137D10E68D88777C7662CB3D3B"},"msg":"操作成功！"}
+2020-05-30 08:27:59.943 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 08:27:59.944 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:27:59.945 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:27:59.946 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 08:27:59.947 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:27:59.948 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 5
+2020-05-30 08:27:59.962 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 08:28:00.260 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 08:28:00.261 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:28:00.261 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:28:00.262 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 08:28:00.262 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:28:00.348 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 88
+2020-05-30 08:28:00.358 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 08:35:10.117 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 08:35:10.119 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:35:10.119 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:35:10.120 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 08:35:10.121 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:35:10.122 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 5
+2020-05-30 08:35:10.122 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 08:35:10.363 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 08:35:10.364 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:35:10.364 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:35:10.365 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 08:35:10.365 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:35:10.412 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 49
+2020-05-30 08:35:10.413 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 08:35:38.888 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 08:35:38.888 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:35:38.889 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:35:38.890 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 08:35:38.891 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:35:38.892 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 4
+2020-05-30 08:35:38.892 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 08:35:39.102 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 08:35:39.103 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:35:39.103 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:35:39.103 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 08:35:39.104 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:35:39.150 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 48
+2020-05-30 08:35:39.151 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 08:44:57.011 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 08:44:57.012 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:44:57.012 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:44:57.013 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 08:44:57.013 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:44:57.013 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-30 08:44:57.014 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 08:44:57.207 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 08:44:57.207 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:44:57.208 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:44:57.209 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 08:44:57.210 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:44:57.254 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 47
+2020-05-30 08:44:57.254 INFO  [http-nio-8080-exec-9]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 08:49:54.345 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 08:49:54.346 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:49:54.346 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:49:54.347 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 08:49:54.347 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:49:54.347 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 2
+2020-05-30 08:49:54.348 INFO  [http-nio-8080-exec-10]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 08:49:54.526 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 08:49:54.528 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 08:49:54.528 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 08:49:54.529 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 08:49:54.529 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 08:49:54.583 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 57
+2020-05-30 08:49:54.583 INFO  [http-nio-8080-exec-1]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 09:11:38.405 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 09:11:38.407 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:11:38.409 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:11:38.409 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 09:11:38.410 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:11:38.411 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 6
+2020-05-30 09:11:38.412 INFO  [http-nio-8080-exec-2]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 09:11:38.874 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 09:11:38.875 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:11:38.876 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:11:38.877 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 09:11:38.878 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:11:38.944 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 70
+2020-05-30 09:11:38.945 INFO  [http-nio-8080-exec-3]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 09:15:22.286 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /comment/getByPage
+2020-05-30 09:15:22.288 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : POST
+2020-05-30 09:15:22.288 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:15:22.289 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.CommentController.getByPage
+2020-05-30 09:15:22.290 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-05-30 09:15:23.834 INFO  [http-nio-8080-exec-4]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:2, serverValue:24}] to 152.136.134.15:27017
+2020-05-30 09:15:24.229 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 1943
+2020-05-30 09:15:24.273 INFO  [http-nio-8080-exec-4]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2020-05-30 09:26:02.385 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 09:26:02.386 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:26:02.386 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:26:02.387 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 09:26:02.388 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:26:02.465 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 80
+2020-05-30 09:26:02.466 INFO  [http-nio-8080-exec-5]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 09:27:26.930 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 09:27:26.931 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:27:26.932 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:27:26.933 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 09:27:26.933 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:27:26.994 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 64
+2020-05-30 09:27:26.995 INFO  [http-nio-8080-exec-6]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 09:27:38.743 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /admin/info
+2020-05-30 09:27:38.745 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:27:38.745 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:27:38.746 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.AdminController.getLoginInfo
+2020-05-30 09:27:38.747 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:27:38.747 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 4
+2020-05-30 09:27:38.748 INFO  [http-nio-8080-exec-7]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":{"header":"http://152.136.134.15/group1/M00/00/00/rBUAA17Oc6WAWTHfAADb_eshsXI395.gif","name":"染柒","password":"","signature":"脚踏实地，仰望星空。","username":"admin"},"msg":"操作成功！"}
+2020-05-30 09:27:39.086 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:106 -请求地址 : /type/getList
+2020-05-30 09:27:39.088 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:107 -请求方式 : GET
+2020-05-30 09:27:39.089 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:110 -IP : 127.0.0.1
+2020-05-30 09:27:39.089 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:112 -方法 : com.whz.shiro.controller.TypeController.getList
+2020-05-30 09:27:39.090 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.printRequestLog:114 -请求参数：[]
+2020-05-30 09:27:39.157 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAround:61 -耗时 : 72
+2020-05-30 09:27:39.159 INFO  [http-nio-8080-exec-8]com.whz.shiro.aspect.RequestAspect.doAfterReturning:75 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":3,"typeName":"jsp"},{"typeBlogCount":1,"typeId":9,"typeName":"vue"},{"typeBlogCount":2,"typeId":10,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-05-30 09:51:43.204 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-05-30 09:51:43.212 INFO  [SpringContextShutdownHook]org.mongodb.driver.connection.info:71 -Closed connection [connectionId{localValue:2, serverValue:24}] to 152.136.134.15:27017 because the pool has been closed.
+2020-05-30 09:51:43.238 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

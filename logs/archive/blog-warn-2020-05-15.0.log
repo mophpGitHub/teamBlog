@@ -1,0 +1,1 @@
+2020-05-15 23:49:10.685 WARN  [http-nio-8090-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
